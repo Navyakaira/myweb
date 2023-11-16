@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:9.0.83-jre8
 # Dummy text to test 
-COPY target/myweb*.war /usr/local/tomcat/webapps/myweb.war
+COPY 	in/javahome/myweb/8.2.0/myweb-8.2.0.war
 
