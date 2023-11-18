@@ -1,4 +1,4 @@
-FROM tomcat:9.0
+FROM tomcat:9.0.83
 WORKDIR /usr/local/tomcat/webapps/
 RUN wget http://34.232.68.102:8081/repository/sample-releases/in/javahome/myweb/8.2.0/myweb-8.2.0.war
 EXPOSE 8080
